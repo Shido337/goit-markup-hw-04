@@ -232,6 +232,7 @@ background: var(--navy-blue);
     background-position: center;
 padding-top: 188px;  
 padding-bottom: 188px; 
+margin: auto;
 }
 
 .hero-title {
