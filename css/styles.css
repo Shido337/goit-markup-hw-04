@@ -222,7 +222,7 @@ gap: 40px;
 
 .hero {
 background: var(--navy-blue);
-    background-image: linear-gradient(180deg,
+    background-image: linear-gradient(
             rgba(46, 47, 66, 0.7) 100%,
             rgba(46, 47, 66, 0.7) 100%),
         url(/images/hero/hero-bg.jpg);
@@ -265,7 +265,7 @@ border-radius: 4px;
 margin-right: 480px;
 margin-left: 480px;
             border: none;
-            transition: color 250ms linear;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover,
@@ -316,7 +316,10 @@ font-family: var(--font-family);
 }
 
 .quality-item .container-quality-icon {
-width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
     height: 112px;
     background-color: var(--cloud);
     border: 1px solid var(--light-slate);
