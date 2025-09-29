@@ -222,14 +222,14 @@ gap: 40px;
 
 .hero {
 background: var(--navy-blue);
-    background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-        url(/images/hero/hero-bg.jpg);
-        max-width: 1440px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+background-image: linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)),
+url(/images/hero/hero-bg.jpg);
+max-width: 1440px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 padding-top: 188px;  
 padding-bottom: 188px; 
 margin: auto;
@@ -337,9 +337,6 @@ font-family: var(--font-family);
     padding-bottom: 120px;
 }
 
-.team-section .container {
-
-}
 
 .team-title {
     font-weight: 700;
